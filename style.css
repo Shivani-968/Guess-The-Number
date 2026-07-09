@@ -1,0 +1,92 @@
+﻿#outer{
+  margin-left:210px;
+  margin-top:40px;
+}
+#title {
+  font-family: Montserrat, sans-serif;
+  font-size:35px;
+  margin-left:290px;
+  color:#FFF9C4;
+}
+#para{
+  font-family: Montserrat, sans-serif;
+  font-size:31px;
+}
+#enter{
+  margin-top:5px;
+  margin-left:29px;
+  font-size:25px;
+  font-family: Roboto, sans-serif;
+}
+#submit{
+  margin-top:15px;
+  margin-left:250px;
+  font-size:27px;
+  font-family: Roboto, sans-serif;
+}
+#s{
+  font-size:19px;
+}
+.pg{
+   font-size:21px;
+  font-family: Merriweather, serif;
+  font-weight:550;
+   margin-top:5px;
+  margin-left:29px;
+}
+ #mess{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+   margin-top:5px;
+  margin-left:100px;
+   color:#BB86FC;;
+}
+#out{
+  background-color:#F8BBD0;
+  height:600px;
+  padding-top:50px;
+  width:800px;
+  margin-left:50px;
+  padding-right:100px;
+}
+#mess2{
+  font-family: Roboto, sans-serif;
+   font-size:27px;
+    font-size: 28px;
+   margin-top:10px;
+  margin-left:250px;
+}
+#out{
+    background-color: #121212;
+    color: #FFD54F;
+}
+#body{
+  background-color:#F06292;
+}
+button{
+    background-color: #E0E0E0;
+    color:#424242 ;
+    border: none;
+    border-radius: 8px;
+}#mess1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+   margin-top:5px;
+  margin-left:80px;
+    color: #50FA7B;
+}
+#mess,#mess1,#title{
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
